@@ -1,7 +1,6 @@
 # The `rm` command
 
-`rm` Stands for "remove" and it's used to remove *(Delete)* specific files.
-Also, With flags it can remove specific directories.
+`rm` whih stands for "remove" is a command used to remove *(delete)* specific files. It can also be used to remove directories by using the appropriate flag.
 
 ### Example:
 ```
