@@ -34,4 +34,4 @@ rm [OPTION] [FILE|DIRECTORY]
 2. To remove a file whose name starts with `-` such as `-foo`, use one of the following commands:
    - `rm -- -foo`
    - `rm ./-foo`
-3. For Assurance that the contents are truely unrecoverable, consider using `shred` command
+3. To ensure that files/directories being deleted are truly unrecoverable, consider using the `shred` command.
