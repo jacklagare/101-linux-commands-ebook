@@ -31,7 +31,7 @@ rm [OPTION] [FILE|DIRECTORY]
 
 ***IMPORTANT NOTICE:***
 1. `rm` doesn't remove directories by default, so use `-r`, `-R`, `--recursive` options to remove each listed directory, along with all of its contents.
-2. To remove a file whose name starts with '-', for example '-foo', use one of the following commands:
-   `rm -- -foo`
-   `rm./-foo`
+2. To remove a file whose name starts with `-` such as `-foo`, use one of the following commands:
+   - `rm -- -foo`
+   - `rm ./-foo`
 3. For Assurance that the contents are truely unrecoverable, consider using `shred` command
